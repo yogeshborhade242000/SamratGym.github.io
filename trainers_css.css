@@ -1,0 +1,119 @@
+body{
+	background-color: #D5D5D5;
+}
+
+
+
+/*------------------- Navigation Bar ------------------------*/
+.navigation-div{
+	background-color: #000000;
+	height: 60px;
+	width: 100%;
+}
+
+nav{
+	height: 100px;
+	width: 700px;
+	min-width: 600px;
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	margin:auto;
+}
+
+
+.nvg{
+	position: relative;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	padding: 0 10px;
+}
+
+.nvg:after{
+	content: "";
+	position: absolute;
+	background-color: #F12A2A;
+	height: 3px;
+	width: 0%;
+	margin-top: 25px;
+	left: 0;
+	transition: 0.3s;
+}
+
+.nvg:hover:after{
+	width: 100%;
+}
+
+
+/*-------------------- Heading ------------------------ */
+
+#trainer-heading{
+	font-size: 30px;
+	color: #F12A2A;
+}
+
+
+
+/*------------------- Profiles ------------------------*/
+
+.profile-1, .profile-2, .profile-3{
+	height: 350px;
+	width: 200px;
+	background-color: #FFFFFF;
+	border: 2px solid #000000;
+	border-radius: 15px;
+	margin: -40px 0 60px 0;
+}
+
+.profile-1:hover{
+	transform: scale(1.1,1.1);
+}
+
+
+
+.profile-2:hover{
+	transform: scale(1.1,1.1);
+}
+
+
+
+.profile-3:hover{
+	transform: scale(1.1,1.1);
+}
+
+
+.profile-img{
+	height: 80px;
+	width: 80px;
+	margin-top: 10px;
+	border-radius: 50%;
+	border: 2px solid red;
+}
+
+
+.profile-img:hover{
+	transform: scale(1.1,1.1);
+}
+
+
+.profile-name{
+	font-size: 20px;
+
+}
+
+
+.profile-description{
+	/*float: left;*/
+	margin: -5px 10px 0 10px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+
+/*------------------- Home Icon ------------------------*/
+
+#home_icon{
+	text-decoration: none;
+}

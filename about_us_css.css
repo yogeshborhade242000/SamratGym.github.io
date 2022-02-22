@@ -1,0 +1,208 @@
+body{
+	background-color: #D5D5D5; 
+}
+
+/*------------------- Navigation Bar ------------------------*/
+.navigation-div{
+	background-color: #000000;
+	height: 60px;
+	width: 100%;
+}
+
+nav{
+	height: 100px;
+	width: 700px;
+	min-width: 600px;
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	margin:auto;
+}
+
+
+.nvg{
+	position: relative;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	padding: 0 10px;
+}
+
+.nvg:after{
+	content: "";
+	position: absolute;
+	background-color: #F12A2A;
+	height: 3px;
+	width: 0%;
+	margin-top: 25px;
+	left: 0;
+	transition: 0.3s;
+}
+
+.nvg:hover:after{
+	width: 100%;
+}
+
+
+/*------------------- About-Us-Heading ------------------------*/
+
+#about-us-heading{
+	font-size: 30px;
+	color: #F12A2A;
+}
+
+
+
+/*------------------- About-Us-Description-Img ---------------------*/
+
+.about-us-description{
+	height: 400px;
+	width: 60%;
+	margin-left: 200px;
+	/*border: 2px solid red;*/
+}
+
+#description-img{
+	height: 225px;
+	width: 592px;
+	border-radius: 3px;
+	border: 1px solid #000000;
+}
+
+
+#description-p{
+	text-align: justify;
+	text-justify: inter-word;
+	/*margin: 5px 10px 5px 10px;*/
+	margin: 5px 0px 5px 0px;
+	letter-spacing: 0.5px;
+}
+
+
+/*------------------- About-Us-Branches ---------------------*/
+
+.about-us-branches-div{
+	background-color: #FFFFFF;
+	height: 550px;
+	width: 100%;
+}
+
+#about-us-our-branches-heading{
+	font-size: 25px;
+	color: #000000;
+	padding-top: 15px;
+}
+
+
+.about-us-branches-img{
+	height: 460px;
+	width: 60%;
+	margin-left: 200px;
+	/*border: 1px solid red;*/
+}
+
+
+.branch-1-img-div{
+	float: left;
+}
+
+
+.branch-img{
+	margin: 15px 15px 40px 15px;
+	border-radius: 5px;
+}
+
+
+
+.branch-2-img-div{
+	float: right;
+}
+
+
+.branch-1-description-div{
+	width: 250px;
+	margin-right: 10px;
+	display: grid;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+
+.branch-2-description-div{
+	float: left;
+	width: 250px;
+	position: absolute; 
+	margin-top: 80px;
+	margin-left: 10px;
+	display: grid;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+
+.branch{
+	font-size: 15px;
+	color: #F12A2A;
+	margin-left: 15px;
+}
+
+
+.address-heading{
+	font-size: 15px;
+	color: #000000;
+	margin-left: 15px;
+	margin-top: -10px;
+}
+
+
+.address{
+	font-size: 12px;
+	color: #000000;
+	margin-left: 15px;
+	margin-top: -10px;
+}
+
+
+
+
+/*------------------- About-Us-Opening-Hours ---------------------*/
+
+.about-us-opening-hours-div{
+	height: 350px;
+	width: 60%;
+	margin-left: 200px;
+	/*border: 1px solid red;*/
+}
+
+
+#about-us-opening-hours-heading{
+	font-size: 25px;
+	color: #000000;
+	padding-top: 10px;
+}
+
+
+.days{
+	float: left;
+	height: 250px;
+	width: 80px;
+	/*border: 1px solid black;*/
+	margin-left: 35%;
+}
+
+
+.timing{
+	float: right;
+	height: 250px;
+	width: 150px;
+	/*border: 1px solid black;*/
+	margin-right: 25%;
+	position: relative;
+}
+
+
+/*--------------------- Home Icon --------------------------*/
+#home_icon{
+	text-decoration: none;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Member Registration </title>
+	<link rel="stylesheet" href="member_registration_css.css">
+</head>
+<body>
+
+<section id="member-registration-form-section"> 
+	<div class="form-group">
+		<form method="post" action="#">
+
+			<center> <h1 id="member-registration-heading"> Member Registration </h1> </center>
+			<div class="member-registration-form">
+
+				<p> Name: </p> 
+				<input type="text" name="name" placeholder="Name" id="name"> <br> <br>
+
+				<p> Address: </p> 
+				<input type="text" name="address" placeholder="Address" id="address"> <br> <br>
+
+				<p> Contact: </p> 
+				<input type="tel" name="contact" placeholder="Contact" id="contact"> <br> <br>
+
+				<p> Select Date of Birth: </p> 
+				<input type="date" name="dob" id="dob"> <br> <br>
+
+				<p> Select Package Type: </p> 
+				<select name="package_type" id="package_type"> 
+					<option value=""> Select Package Type </option>
+					<option value="1 Month"> 1 Month </option>
+					<option value="3 Months"> 3 Months </option>
+					<option value="6 Months"> 6 Months </option>
+					<option value="1 Year"> 1 Year </option>
+				</select>
+				<br> <br>
+
+				<p> Select Admission: </p> 
+				<input type="date" name="admission_date" id="admission_date"> <br> <br>
+
+				<p> Select Package Expiration Date: </p> 
+				<input type="date" name="package_expiration_date" id="package_expiration_date"> <br> <br>
+
+				<center> 
+					<input type="submit" name="register_member" value="Register Member" id="register_member_button"> <br> <br>
+					<button id="go_to_dashboard" name="go_to_dashboard"><a href="admin_dashboard_php.php"> Go To Dashboard </a> </button>
+				</center>
+
+			</div>
+		</form>
+		
+	</div>
+</section>
+
+</body>
+</html>

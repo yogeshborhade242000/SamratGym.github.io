@@ -1,0 +1,173 @@
+body{
+	background-color:#D5D5D5; 
+}
+
+/*------------------- Navigation Bar ------------------------*/
+.navigation-div{
+	background-color: #000000;
+	height: 60px;
+	width: 100%;
+}
+
+nav{
+	height: 100px;
+	width: 700px;
+	min-width: 600px;
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	margin:auto;
+}
+
+
+.nvg{
+	position: relative;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	padding: 0 10px;
+}
+
+.nvg:after{
+	content: "";
+	position: absolute;
+	background-color: #F12A2A;
+	height: 3px;
+	width: 0%;
+	margin-top: 25px;
+	left: 0;
+	transition: 0.3s;
+}
+
+.nvg:hover:after{
+	width: 100%;
+}
+
+
+/*------------------- Contact-Us Heading ------------------------*/
+
+#contact-us-heading{
+	font-size: 30px;
+	color: #F12A2A;
+}
+
+
+/*------------------- Contact-Us-Form ------------------------*/
+
+.contact-us-div{
+	background-color: #D5D5D5;
+	height: 450px;
+	width: 100%;
+	display: flex;
+}
+
+
+.contact-us-form-div{
+	margin-right: 0px;
+	margin-left: 200px;
+	margin-top: 15px;
+	height: 400px;
+	width: 30%;
+	/*background-color: yellow;*/
+	border-left: 1px solid #000000;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+
+#name, #email, #contact{
+	border: 2px solid #D5D5D5;
+	height: 25px;
+	width: 250px;
+	margin: 15px 0 15px 15px;
+	padding: 5px;
+
+}
+
+
+#message{
+	border: 2px solid #D5D5D5;
+	height: 50px;
+	width: 250px;
+	margin: 15px 0 0 15px;
+	padding: 5px;
+
+}
+
+
+textarea{
+	min-width: 250px;
+	max-width: 250px;
+	min-height: 100px;
+	max-height: 100px;
+}
+
+
+#send_button{
+	font-size: 15px;
+	color: #FFFFFF;
+	background-color: #F12A2A;
+	padding: 4px;
+	border-radius: 5px;
+	width: 60px;
+	text-decoration: none;
+	box-shadow: none;
+	border: 2px solid #F12A2A;
+	margin: 10px 0 0 0;
+	cursor: pointer;
+}
+
+
+/*------------------- Contact-Us-Address ------------------------*/
+
+.contact-us-address-div{
+	height: 400px;
+	width: 30%;
+	margin-top: 15px;
+	/*background-color: orange;*/
+	margin-left: 0px;
+	border-right: 1px solid #000000;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+h4{
+	margin: 15px 0 0 15px;
+	padding: 5px;
+}
+
+
+#address-p{
+	text-align: justify;
+	text-justify: inter-word;
+	margin: 0 15px 0 20px;
+	font-size: 15px;
+}
+
+
+#call-us-at-p-1,#call-us-at-p-2, #drop-a-mail-p{
+	margin: 0 0 0 15px;
+	font-size: 15px;
+	position: absolute;
+}
+
+
+.icons{
+	height: 12px;
+	width: 12px;
+	padding:2px;
+	border: 1px solid #000000;
+	border-radius: 50%;
+	margin: 0 0 15px 35px;
+}
+
+span{
+	margin-left: 5px;
+}
+
+
+/*--------------------- Home Icon --------------------------*/
+#home_icon{
+	text-decoration: none;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Trainer Registration </title>
+	<link rel="stylesheet" href="trainer_registration_css.css">
+</head>
+<body>
+
+<section id="trainer-registration-form-section"> 
+	<div class="form-group">
+		<form method="post" action="register_trainer.html">
+
+			<center> <h1 id="trainer-registration-heading"> Trainer Registration </h1> </center>
+			<div class="trainer-registration-form">
+
+				<!-- <p> Name: </p>  -->
+				<input type="text" name="trainer_name" placeholder="Trainer Name" id="trainer_name" required="required"> <br> <br>
+
+				<!-- <p> Address: </p>  -->
+				<input type="text" name="trainer_address" placeholder="Trainer Address" id="trainer_address" required="required"> <br> <br>
+
+				<!-- <p> Email: </p>  -->
+				<input type="email" name="trainer_email" placeholder="Trainer Email" id="trainer_email" required="required"> <br> <br>
+
+				<!-- <p> Contact: </p>  -->
+				<input type="tel" name="trainer_contact" placeholder="Trainer Contact" id="trainer_contact" required="required"> <br> <br> <br>
+
+				<center> 
+					<input type="submit" name="register_trainer" value="Register Trainer" id="register_trainer_button"> <br> <br>
+					<button id="go_to_dashboard" name="go_to_dashboard"><a href="admin_dashboard_php.php">  Go To Dashboard </a></button> 
+				</center>
+
+			</div>
+		</form>
+		
+	</div>
+</section>
+
+</body>
+</html>

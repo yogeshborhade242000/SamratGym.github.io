@@ -1,0 +1,87 @@
+/*------------------- Navigation Bar ------------------------*/
+.navigation-div{
+	background-color: #000000;
+	height: 60px;
+	width: 100%;
+}
+
+nav{
+	height: 100px;
+	width: 700px;
+	min-width: 600px;
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	margin:auto;
+}
+
+
+.nvg{
+	position: relative;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	padding: 0 10px;
+}
+
+.nvg:after{
+	content: "";
+	position: absolute;
+	background-color: #F12A2A;
+	height: 3px;
+	width: 0%;
+	margin-top: 25px;
+	left: 0;
+	transition: 0.3s;
+}
+
+.nvg:hover:after{
+	width: 100%;
+}
+
+
+/*------------------- Gallery Heading ------------------------*/
+
+#gallery-heading{
+	font-size: 30px;
+	color: #F12A2A;
+}
+
+
+/*----------------------- Images ----------------------------*/
+        
+.Images{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+        
+
+.single-img{
+    padding: 20px 20px 20px;
+    object-fit: cover;
+}
+        
+
+.img-class{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border:3px solid grey;
+}
+     
+
+.img-class:hover{
+    transition: 0.9s ease in;
+    transform: scale(1.1,1.1)
+}
+
+/*--------------------- Home Icon --------------------------*/
+#home_icon{
+	text-decoration: none;
+}
+
+
