@@ -103,7 +103,9 @@ h2{
 .gym_photo{
 	float: right;
 	margin-right: 130px;
-	margin-top: 50px;
+	margin-top: 55px;
+	height: 250px;
+	width: 250px;
 }
 
 
