@@ -126,6 +126,12 @@ h2{
 
 
 /*------------------------------- Branches ------------------------------*/
+.our-branches-main-bg-div{
+	height: 550px;
+	width: 100%;
+	background-color: #FFFFFF;
+	position: relative;
+}
 
 .about-us-branches-div{
 	/*background-color: orange;*/
