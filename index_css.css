@@ -101,11 +101,12 @@ h2{
 
 
 .gym_photo{
-	float: right;
-	margin-right: 130px;
+	float: left;
+	margin-left: 520px;
 	margin-top: 80px;
 	height: 300px;
-	width: 300px;
+	width: 320px;
+	position:absolute;
 }
 
 
